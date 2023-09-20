@@ -1,5 +1,6 @@
 # Don't save startcode zips or exercise images
 startcode*.zip
+week_*.zip
 exercise_*.png
 
 # Also ignore files which python and Jupyter creates
