@@ -1,3 +1,7 @@
 # Don't save startcode zips or exercise images
 startcode*.zip
 exercise_*.png
+
+# Also ignore files which python and Jupyter creates
+.ipynb_checkpoints
+*.pyc
