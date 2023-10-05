@@ -36,7 +36,7 @@ plt.figure()
 plt.plot(costs)
 plt.xlabel('Iterations')
 plt.ylabel('Cost')
-plt.savefig('exercise_1.png', dpi=300)
+plt.savefig('exercise_1_1.png', dpi=300)
 print('Figure saved to exercise_1.png')
 
 """
