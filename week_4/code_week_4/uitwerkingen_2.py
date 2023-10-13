@@ -37,7 +37,6 @@ def get_y_matrix(y, m):
 
     cols = np.arange(m)
     rows = np.squeeze(np.asarray(y - 1))
-    # rows = np.squeeze(np.where(y == 10, 0, y))
     data = np.ones(m)
     y_vec = csr_matrix((data, (rows, cols)), shape=(10, m)).T.toarray()
     return y_vec
